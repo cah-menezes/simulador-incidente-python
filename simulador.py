@@ -239,10 +239,9 @@ def resultado(pontos, nome):
 
 #region Programa principal
 if __name__ == "__main__":
-    pontos = 20
-    nome = "Cah"
-    # um, nome = etapa1(pontos, nome)
-    # dois, nome = etapa2(pontos, nome)
-    tres, nome = etapa3(pontos, nome)
-    resultado(tres, nome)
+    pontos = 0
+    pontos, nome = etapa1(pontos, nome)
+    pontos, nome = etapa2(pontos, nome)
+    pontos, nome = etapa3(pontos, nome)
+    resultado(pontos, nome)
 #endregion
